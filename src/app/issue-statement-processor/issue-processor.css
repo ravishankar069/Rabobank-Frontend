@@ -1,0 +1,56 @@
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.customers td,.customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.customers tr:hover{
+    background-color: #ddd;
+}
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #38b0b473;
+    color: black;
+}
+.issues_count{
+    padding: 20px;
+    background-color: royalblue;
+    margin-bottom: 3%;
+} 
+.issues_head{
+    font-size: bold;
+    color: white;
+    text-align: center;
+}
+.issues_bold{
+    text-align: center;
+    font-size: 24px;
+}
+.issues_input{
+    text-align: center;
+    margin-left: 5%;
+}
+.upload_button{
+    margin-left: 25%;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline:none;
+}
+.issues_filter{
+    /* border: none; */
+    outline: none;
+    padding: 10px;
+    border:4px solid green;
+    border-radius: 20px;
+}

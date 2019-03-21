@@ -1,0 +1,15 @@
+{
+    "name": "rabo-bank-issue-processor",
+    "version": "0.0.0",
+    "scripts": {
+        "npm": "npm i http-server -g",
+        "start": "http-server -o"
+    },
+    "dependencies": {
+        "angular": "^1.6.9",
+        "ngFileUpload": "^12.2.13"
+    },
+    "port": {
+        "local-server": "http://localhost:8080/src/" 
+    }
+}

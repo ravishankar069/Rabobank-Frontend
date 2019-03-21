@@ -1,0 +1,34 @@
+<div>
+    <div class="issues_count">
+        <h1 class="issues_head">Process the issues count here...</h1>
+    </div>
+    <div>    
+        <b class="issues_bold">Issue statement </b>
+        <input class="issues_input" type="file" accept=".csv" ngf-select="selectFile($file)"></input>
+        <button class="upload_button" type="button" ng-click = "processingIssueStatement()">Upload</button>
+    </div>  
+    <div>
+            <b class="issues_bold">Filter based on issue </b>
+            <input id="myInput" class="issues_filter" ng-keyup="filteringOnIssueCount()"></input>
+    </div>
+    <div> 
+    <hr/>
+            <table id="tblCustomers" class="customers" cellpadding="0" cellspacing="0" ng-show="IsVisible">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Sur Name</th>
+                        <th>Issue count</th>
+                        <th>Date of birth</th>
+                    </tr>
+                    <tbody ng-repeat="m in Customers">
+                        <tr>
+                            <td>{{m.firstName}}</td>
+                            <td>{{m.surName}}</td>
+                            <td>{{m.issueCount}}</td>
+                            <td>{{m.dateOfBirth}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+<br/>
+</div>
