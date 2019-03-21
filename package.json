@@ -5,11 +5,10 @@
         "npm": "npm i http-server -g",
         "start": "http-server -o"
     },
-    "dependencies": {
-        "angular": "^1.6.9",
+    "devDependencies": {
         "ngFileUpload": "^12.2.13"
     },
     "port": {
-        "local-server": "http://localhost:8080/src/" 
+        "local-server": "http://localhost:8080/src/"
     }
 }
