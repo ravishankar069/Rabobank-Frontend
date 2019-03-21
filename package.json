@@ -6,6 +6,13 @@
         "start": "http-server -o"
     },
     "devDependencies": {
+        "angular": "^1.7.8",
+        "angular-mocks": "^1.7.8",
+        "angular-ui-router": "^1.0.22",
+        "jasmine-core": "^3.3.0",
+        "karma": "^4.0.1",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^2.0.1",
         "ngFileUpload": "^12.2.13"
     },
     "port": {
