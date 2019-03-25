@@ -14,6 +14,7 @@ Angular 1.6.9
 Angular mocks
 karma
 Jasmine
+ngFileUpload
 
 Test : 
 karma start
