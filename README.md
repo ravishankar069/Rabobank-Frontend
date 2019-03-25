@@ -15,6 +15,9 @@ Angular mocks
 karma
 Jasmine
 
+Test : 
+karma start
+
 
 
 
