@@ -12,10 +12,12 @@ function issueProcessorController($rootScope, $scope, $window) {
         count: ''
     };
 
+    // File uploaded by the user is defined here.
     $scope.selectFile = function (file) {
         $scope.selectedFile = file;
     };
 
+    // Here the csv file is parsed and stored in an array to shown as the table content.
     $scope.processingIssueStatement = function () {
         var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
         if (regex.test($scope.selectedFile.name.toLowerCase())) {
@@ -46,6 +48,7 @@ function issueProcessorController($rootScope, $scope, $window) {
         }
     }
 
+    // Filter enabled for the user to get specific data based on issue count.
     $scope.filteringOnIssueCount = function () {
         var input, filter, table, tr, td, i, txtValue;
         input = document.getElementById("myInput");

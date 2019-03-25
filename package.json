@@ -1,25 +1,25 @@
 {
     "name": "rabo-bank-issue-processor",
     "version": "0.0.0",
+    "author": "Ravisankar Rajamanickam",
     "scripts": {
         "npm": "npm i http-server -g",
         "start": "http-server -o"
-    },
-    "devDependencies": {
-        "angular": "^1.7.8",
-        "angular-mocks": "^1.7.8",
-        "angular-ui-router": "^1.0.22",
-        "jasmine-core": "^3.3.0",
-        "karma": "^4.0.1",
-        "karma-chrome-launcher": "^2.2.0",
-        "karma-jasmine": "^2.0.1",
-        "ngFileUpload": "^12.2.13"
     },
     "port": {
         "local-server": "http://localhost:8080/src/"
     },
     "dependencies": {
         "angular-mock": "^1.0.0",
-        "zone.js": "^0.9.0"
+        "zone.js": "^0.9.0",
+        "angular": "^1.7.8",
+        "angular-mocks": "^1.7.8",
+        "angular-ui-router": "^1.0.22",
+        "jasmine": "^3.3.1",
+        "jasmine-core": "^3.3.0",
+        "karma": "^4.0.1",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^2.0.1",
+        "ngFileUpload": "^12.2.13"
     }
 }
